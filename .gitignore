@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+package-lock.json
+
+# Sesión de WhatsApp: contiene las credenciales del número. NUNCA subirla.
+sesion/
+*.creds.json
+
+# Base de datos y temporales
+data/datos.json
+data/*.corrupto-*.json
+tmp/
+*.log
+
+# Configuración local
+.env
+.env.local
+
+# Sistema
+.DS_Store
+Thumbs.db

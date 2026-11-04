@@ -1,0 +1,215 @@
+{
+ "version": 1,
+ "personajes": [
+  {
+   "id": 1,
+   "nombre": "Sakura Hoshino",
+   "serie": "Kaze no Uta",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 2,
+   "nombre": "Rin Aizawa",
+   "serie": "Neon Sakura",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 3,
+   "nombre": "Mika Tachibana",
+   "serie": "Barrio 7",
+   "rareza": 3,
+   "precio": 1200
+  },
+  {
+   "id": 4,
+   "nombre": "Aoi Nakamura",
+   "serie": "Lluvia de Verano",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 5,
+   "nombre": "Yuki Shinoda",
+   "serie": "Bosque de Cristal",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 6,
+   "nombre": "Hana Mizuki",
+   "serie": "Café Azul",
+   "rareza": 2,
+   "precio": 800
+  },
+  {
+   "id": 7,
+   "nombre": "Rei Kurosawa",
+   "serie": "Última Estación",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 8,
+   "nombre": "Nao Fujita",
+   "serie": "Gato Negro",
+   "rareza": 3,
+   "precio": 1200
+  },
+  {
+   "id": 9,
+   "nombre": "Sora Minami",
+   "serie": "Vuelo Nocturno",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 10,
+   "nombre": "Emi Watanabe",
+   "serie": "Panadería Luna",
+   "rareza": 2,
+   "precio": 800
+  },
+  {
+   "id": 11,
+   "nombre": "Kira Yamashita",
+   "serie": "Ciudad Neón",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 12,
+   "nombre": "Momo Ikeda",
+   "serie": "Dulce Espera",
+   "rareza": 3,
+   "precio": 1200
+  },
+  {
+   "id": 13,
+   "nombre": "Ayaka Doi",
+   "serie": "Sendero Rojo",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 14,
+   "nombre": "Chihiro Sato",
+   "serie": "Cartas al Mar",
+   "rareza": 2,
+   "precio": 800
+  },
+  {
+   "id": 15,
+   "nombre": "Natsumi Arai",
+   "serie": "Festival de Verano",
+   "rareza": 3,
+   "precio": 1200
+  },
+  {
+   "id": 16,
+   "nombre": "Haruka Endo",
+   "serie": "Mecánica Celeste",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 17,
+   "nombre": "Tomoe Kudo",
+   "serie": "Jardín Seco",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 18,
+   "nombre": "Riko Ozawa",
+   "serie": "Ruido Blanco",
+   "rareza": 3,
+   "precio": 1200
+  },
+  {
+   "id": 19,
+   "nombre": "Yuna Sakamoto",
+   "serie": "Primera Nieve",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 20,
+   "nombre": "Kaede Mori",
+   "serie": "Té de Medianoche",
+   "rareza": 2,
+   "precio": 800
+  },
+  {
+   "id": 21,
+   "nombre": "Shiori Hayashi",
+   "serie": "Teatro Vacío",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 22,
+   "nombre": "Miku Tanabe",
+   "serie": "Ciudad Dormida",
+   "rareza": 3,
+   "precio": 1200
+  },
+  {
+   "id": 23,
+   "nombre": "Asuka Noguchi",
+   "serie": "Tormenta Suave",
+   "rareza": 4,
+   "precio": 1600
+  },
+  {
+   "id": 24,
+   "nombre": "Hotaru Chiba",
+   "serie": "Luz de Faro",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 25,
+   "nombre": "Tomate-Chan",
+   "serie": "Edición Tomate",
+   "rareza": 5,
+   "precio": 2000
+  },
+  {
+   "id": 26,
+   "nombre": "Pera Sensei",
+   "serie": "Huerto Escolar",
+   "rareza": 1,
+   "precio": 400
+  },
+  {
+   "id": 27,
+   "nombre": "Lechuga Girl",
+   "serie": "Huerto Escolar",
+   "rareza": 1,
+   "precio": 400
+  },
+  {
+   "id": 28,
+   "nombre": "Cebolla Boy",
+   "serie": "Huerto Escolar",
+   "rareza": 2,
+   "precio": 800
+  },
+  {
+   "id": 29,
+   "nombre": "Ajo Kun",
+   "serie": "Huerto Escolar",
+   "rareza": 1,
+   "precio": 400
+  },
+  {
+   "id": 30,
+   "nombre": "Chile Rojo",
+   "serie": "Huerto Escolar",
+   "rareza": 3,
+   "precio": 1200
+  }
+ ]
+}

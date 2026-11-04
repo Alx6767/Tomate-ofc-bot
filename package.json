@@ -1,0 +1,33 @@
+{
+  "name": "tomate-ofc-bot",
+  "version": "1.0.0",
+  "description": "Tomate ofc bot — bot de WhatsApp con plugins, menú por categorías y más de 200 comandos.",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "menu": "node tools/ver-menu.js",
+    "test": "node --test test/*.test.js",
+    "check": "node --check index.js && node --check src/*.js && node --check plugins/*.js"
+  },
+  "dependencies": {
+    "@vreden/youtube_scraper": "^1.2.9",
+    "@whiskeysockets/baileys": "^6.7.24",
+    "btch-downloader": "^6.0.37",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "yt-search": "^2.12.1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "baileys",
+    "tomate"
+  ],
+  "license": "MIT",
+  "author": "riokuroxi-svg"
+}
