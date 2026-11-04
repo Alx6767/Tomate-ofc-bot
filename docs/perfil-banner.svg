@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="riokuroxi-svg — desarrollador de bots de WhatsApp">
+  <defs>
+    <linearGradient id="fondo2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080B09"/>
+      <stop offset="60%" stop-color="#0F1611"/>
+      <stop offset="100%" stop-color="#170A0C"/>
+    </linearGradient>
+    <radialGradient id="glowRojo2" cx="0.82" cy="0.45" r="0.5">
+      <stop offset="0%" stop-color="#E63946" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#E63946" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowVerde2" cx="0.12" cy="0.5" r="0.55">
+      <stop offset="0%" stop-color="#25D366" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#25D366" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titulo2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#9FE8B4"/>
+      <stop offset="100%" stop-color="#25D366"/>
+    </linearGradient>
+    <linearGradient id="linea2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#25D366" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#25D366"/>
+      <stop offset="100%" stop-color="#E63946" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#fondo2)"/>
+  <rect width="1280" height="360" fill="url(#glowRojo2)"/>
+  <rect width="1280" height="360" fill="url(#glowVerde2)"/>
+
+  <g opacity="0.1" stroke="#8BE9A6" stroke-width="1">
+    <path d="M0 45 H1280 M0 115 H1280 M0 185 H1280 M0 255 H1280 M0 325 H1280"/>
+    <path d="M60 0 V360 M200 0 V360 M340 0 V360 M480 0 V360 M620 0 V360 M760 0 V360 M900 0 V360 M1040 0 V360 M1180 0 V360"/>
+  </g>
+
+  <!-- huerto: tres tomates -->
+  <g transform="translate(1020 180)">
+    <circle r="96" fill="#E63946" opacity="0.14"/>
+    <g transform="translate(-46 18)">
+      <circle r="34" fill="#C1121F"/>
+      <g fill="#2E7D32"><path d="M0 -34 l9 14 -17 2 z"/><path d="M0 -34 l-9 14 17 2 z"/></g>
+    </g>
+    <g transform="translate(44 26)">
+      <circle r="26" fill="#A4161A"/>
+      <g fill="#2E7D32"><path d="M0 -26 l7 11 -13 2 z"/><path d="M0 -26 l-7 11 13 2 z"/></g>
+    </g>
+    <g>
+      <circle r="46" fill="#E63946"/>
+      <ellipse cx="-15" cy="-17" rx="12" ry="7" fill="#FFFFFF" opacity="0.32" transform="rotate(-25 -15 -17)"/>
+      <g fill="#2E7D32"><path d="M0 -46 l11 17 -22 3 z"/><path d="M0 -46 l-11 17 22 3 z"/></g>
+      <rect x="-3" y="-64" width="6" height="24" rx="3" fill="#388E3C"/>
+    </g>
+  </g>
+
+  <text x="88" y="150" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="74" font-weight="800" letter-spacing="1" fill="url(#titulo2)">riokuroxi-svg</text>
+
+  <rect x="90" y="176" width="560" height="3" rx="1.5" fill="url(#linea2)"/>
+
+  <text x="88" y="222" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="600" letter-spacing="6" fill="#9FE8B4">BOTS DE WHATSAPP · NODE.JS</text>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600">
+    <g>
+      <rect x="88" y="256" width="176" height="40" rx="20" fill="#25D366" opacity="0.14" stroke="#25D366" stroke-opacity="0.5"/>
+      <text x="110" y="282" fill="#8BE9A6">Termux first</text>
+    </g>
+    <g>
+      <rect x="278" y="256" width="186" height="40" rx="20" fill="#E63946" opacity="0.16" stroke="#E63946" stroke-opacity="0.5"/>
+      <text x="300" y="282" fill="#FF8A93">sin dependencias</text>
+    </g>
+    <g>
+      <rect x="478" y="256" width="164" height="40" rx="20" fill="#FFFFFF" opacity="0.08" stroke="#FFFFFF" stroke-opacity="0.22"/>
+      <text x="500" y="282" fill="#E7F3EA">código abierto</text>
+    </g>
+  </g>
+</svg>

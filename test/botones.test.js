@@ -12,6 +12,10 @@ import assert from "node:assert/strict";
 import { mandarBotones, deCopiar, deEnlace, deRespuesta, botonesActivos } from "../src/botones.js";
 import { extraerTexto } from "../src/handler.js";
 
+// Sin `npm install` no hay Baileys con el que armar el interactivo: esas pruebas
+// se saltan en vez de fallar por algo que no es del bot.
+const hayBaileys = await import("@whiskeysockets/baileys").then(() => true).catch(() => false);
+
 /** WhatsApp falso que apunta lo que se manda. */
 function sockFalso({ conRelay = true, relayFalla = false } = {}) {
   const enviados = [];
@@ -47,7 +51,7 @@ test("los botones están activos por defecto", () => {
   assert.equal(botonesActivos(), true);
 });
 
-test("el mensaje interactivo se arma con los tres tipos de botón", async () => {
+test("el mensaje interactivo se arma con los tres tipos de botón", { skip: !hayBaileys && "falta npm install" }, async () => {
   const { sock, retransmitidos, enviados } = sockFalso();
   const salio = await mandarBotones(sock, "52155@s.whatsapp.net", EJEMPLO);
 

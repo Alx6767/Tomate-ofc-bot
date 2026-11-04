@@ -195,9 +195,12 @@ test("daily paga y no deja cobrar dos veces", async () => {
 
 test("las fuentes de descarga se anuncian sin tocar la red", async () => {
   const { fuentesDisponibles } = await import("../src/fuentes.js");
+  const hayBusqueda = await import("yt-search").then(() => true).catch(() => false);
   const fuentes = await fuentesDisponibles();
   assert.ok(Array.isArray(fuentes));
-  assert.ok(fuentes.includes("yt-search"), `debería incluir yt-search: ${fuentes.join(", ")}`);
+  if (hayBusqueda) {
+    assert.ok(fuentes.includes("yt-search"), `debería incluir yt-search: ${fuentes.join(", ")}`);
+  }
 });
 
 test("la IA avisa de que falta la clave", async () => {
