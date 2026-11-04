@@ -130,7 +130,7 @@ export default [
     aliases: ["mascota"],
     category: "subbots",
     desc: "Manda la mascota del bot.",
-    run: async (ctx) => mandarAsset({ ...ctx, archivo: "tomate.jpg", pie: "🍅 Tomate ofc bot" })
+    run: async (ctx) => mandarAsset({ ...ctx, archivo: "mascota.png", pie: "🍅 Tomate ofc bot" })
   },
   {
     name: "setbanner",

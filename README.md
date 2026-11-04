@@ -212,7 +212,7 @@ La mascota y el banner viven en `assets/` y se usan solos: `.foto` manda la
 mascota, `.setbanner` el banner.
 
 - `assets/banner.svg` — el banner del README (escala sin pixelarse)
-- `assets/mascota.png` — la mascota
+- `assets/mascota.png` — la mascota (también en `mascota.jpg`, más ligera)
 - `assets/tomate.jpg` — la foto de perfil del bot
 
 Para cambiar la foto de perfil del número desde WhatsApp: cita una imagen y usa
