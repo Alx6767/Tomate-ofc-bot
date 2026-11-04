@@ -166,6 +166,28 @@ export default [
     }
   },
   {
+    name: "private",
+    aliases: ["privado"],
+    category: "owner",
+    desc: "Deja el bot solo para el dueño y los moderadores.",
+    usage: "<on|off>",
+    owner: true,
+    run: async ({ reply, store, text, config }) => {
+      const valor = text.trim().toLowerCase();
+      const actual = store.global("modoPrivado") ?? config.modoPrivado;
+      if (!["on", "off"].includes(valor)) {
+        return reply(`🍅 Modo privado: *${actual ? "encendido" : "apagado"}*. Cambia con .private on|off`);
+      }
+      store.global("modoPrivado", valor === "on");
+      return reply(
+        `🍅 Modo privado *${valor === "on" ? "encendido" : "apagado"}*.\n` +
+          (valor === "on"
+            ? "Solo tú y los moderadores podrán usar el bot."
+            : "Cualquiera puede volver a usar los comandos.")
+      );
+    }
+  },
+  {
     name: "saveper",
     aliases: ["guardarper"],
     category: "owner",

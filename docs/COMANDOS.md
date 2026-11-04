@@ -1,6 +1,6 @@
 # 🍅 Comandos de Tomate ofc bot
 
-Total: **220** comandos en **16** categorías.
+Total: **221** comandos en **16** categorías.
 
 Generado con `node tools/ver-comandos.js`. El prefijo del menú es `.`, pero
 también acepta `!` y `/`.
@@ -13,7 +13,7 @@ también acepta `!` y `/`.
 | ÚTILES | 15 |
 | PERFIL | 16 |
 | DESCARGAS | 14 |
-| OWNER | 11 |
+| OWNER | 12 |
 | GRUPO | 18 |
 | SUBBOTS | 10 |
 | GACHA | 10 |
@@ -186,6 +186,7 @@ también acepta `!` y `/`.
 | `**detectar** 🔑` | Lo que el bot sabe de quien escribe o del citado (nada inventado). | `.detectar` |
 | `**eval** 🔑` | Ejecuta JavaScript en el proceso del bot. Solo dueño. | `.eval <código>` |
 | `**gclone** 🔑` | Cuenta los archivos de un repositorio ya clonado (sin ejecutar nada del repo). | `.gclone <url>` |
+| `**private** 🔑` | Deja el bot solo para el dueño y los moderadores. | `.private <on|off>` |
 | `**r** 🔑` | Vuelve a cargar los plugins sin reiniciar el bot. | `.r` |
 | `**restart** 🔑` | Reinicia el proceso. Necesita un supervisor que lo vuelva a arrancar. | `.restart` |
 | `**savefile** 🔑` | Guarda el archivo citado en la carpeta media/. | `.savefile` |

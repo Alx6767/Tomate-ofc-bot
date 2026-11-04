@@ -9,8 +9,8 @@
 [![Versión](https://img.shields.io/badge/versión-1.0.0-e63946?style=for-the-badge)](package.json)
 [![Node](https://img.shields.io/badge/node-%3E%3D%2020-3c873a?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org)
 [![Baileys](https://img.shields.io/badge/baileys-6.7-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://github.com/WhiskeySockets/Baileys)
-[![Comandos](https://img.shields.io/badge/comandos-219-1d3557?style=for-the-badge)](docs/COMANDOS.md)
-[![Pruebas](https://img.shields.io/badge/pruebas-58%20%2F%2058-2a9d8f?style=for-the-badge)](test/)
+[![Comandos](https://img.shields.io/badge/comandos-221-1d3557?style=for-the-badge)](docs/COMANDOS.md)
+[![Pruebas](https://img.shields.io/badge/pruebas-64%20%2F%2064-2a9d8f?style=for-the-badge)](test/)
 [![Licencia](https://img.shields.io/badge/licencia-MIT-f4a261?style=for-the-badge)](LICENSE)
 
 [Guía completa](docs/GUIA.md) · [Comandos](docs/COMANDOS.md) · [Instalación](#-instalación) · [Configuración](#-configuración) · [Despliegue](#-despliegue) · [Plugins](#-cómo-se-hace-un-plugin) · [Problemas](#-problemas-frecuentes)
@@ -26,7 +26,7 @@ Tomate ofc bot es un bot de WhatsApp hecho en JavaScript (ESM) sobre
 está escrito pieza por pieza, con plugins que se cargan solos y un menú que se
 arma con los comandos que existan de verdad en la carpeta `plugins/`.
 
-- **219 comandos** repartidos en 16 categorías: economía y RPG, juegos, perfil,
+- **221 comandos** repartidos en 16 categorías: economía y RPG, juegos, perfil,
   administración de grupos, descargas, gacha, pokémon, IA, minijuegos de texto,
   álbum, utilidades y comandos de dueño.
 - **Sin base de datos que compilar**: todo se guarda en un JSON, así funciona en
@@ -40,7 +40,7 @@ arma con los comandos que existan de verdad en la carpeta `plugins/`.
   automático a texto si el cliente del que recibe no los acepta.
 - **Nada de promesas falsas**: si falta ffmpeg o la clave de una IA, el comando
   lo dice y explica cómo instalarlo. No simula respuestas.
-- **58 pruebas automáticas** que ejecutan los comandos contra un WhatsApp falso.
+- **64 pruebas automáticas** que ejecutan los comandos contra un WhatsApp falso.
 
 <div align="center">
 <img src="assets/banner.jpg" alt="Banner" width="620">
@@ -302,7 +302,7 @@ Banderas útiles: `owner: true` (solo dueño), `admin: true` (solo admins),
 ## 🧪 Pruebas
 
 ```bash
-npm test          # 58 pruebas
+npm test          # 64 pruebas
 npm run menu      # pinta el menú en la consola, sin conectar WhatsApp
 npm run check     # revisa la sintaxis de todos los archivos
 ```

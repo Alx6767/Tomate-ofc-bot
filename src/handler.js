@@ -160,8 +160,12 @@ export function crearHandler({ sock, store, registro }) {
       const dueno = esDueno(numero) || clave.fromMe || (yo && numero === yo);
       const moderador = dueno || esModerador(numero);
 
-      if (config.modoPrivado && !moderador && !comandos().has(texto.slice(1).split(/\s+/)[0]?.toLowerCase())) {
-        return;
+      // El modo privado puede venir del .env o cambiarse en caliente con .private.
+      const modoPrivado = store.global("modoPrivado") ?? config.modoPrivado;
+      if (modoPrivado && !moderador) {
+        const pedido = texto.slice(1).split(/\s+/)[0]?.toLowerCase();
+        // Con el modo privado puesto, solo pasan los comandos de consulta.
+        if (!["menu", "help", "ping", "botinfo", "cmds", "perfil", "private"].includes(pedido)) return;
       }
 
       // ── 3. Reglas de grupo ──────────────────────────────────────────
